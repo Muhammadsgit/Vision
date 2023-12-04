@@ -1,19 +1,19 @@
 # Vision
 
-# AUTHOR
+## AUTHOR
 Muhammad Hassan
 
 
 
-# Problem Statement
+## Problem Statement
 
-# Executive Summary
+## Executive Summary
 
-# About
+## About
 
 
 
-## File Directory / Table of Contents
+### File Directory / Table of Contents
 This is an alphabetical list of the repository's directory and file structure.
 
 - README.md
@@ -35,7 +35,7 @@ This is an alphabetical list of the repository's directory and file structure.
 - results
   
    
-## Software Requirements
+### Software Requirements
 
 Jupyter Notebook
 Matplotlib.pyplot
@@ -44,12 +44,12 @@ Pandas
 Pickle
 Scikit-Learn (sklearn)
 
-## Data Classes
+### Data Classes
 
-## Feature	Description	Details
+### Feature	Description	Details
 
-## Conclusions and Recommendations
+### Conclusions and Recommendations
 
-## Findings:
+### Findings:
 
-## Recommendations:
+### Recommendations:
