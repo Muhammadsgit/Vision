@@ -1,15 +1,15 @@
 # Vision
 
-Vizs.ai
+  Vizs.ai
 
 ## AUTHOR
-Muhammad Hassan
-
-
+  Muhammad Hassan
 
 ## Problem Statement
 
+
 ## Executive Summary
+
 
 ## About
 
@@ -43,15 +43,19 @@ Jupyter Notebook
 Matplotlib.pyplot
 NumPy
 Pandas
-Pickle
 Scikit-Learn (sklearn)
 
 ### Data Classes
 
+
 ### Feature	Description	Details
+
 
 ### Conclusions and Recommendations
 
+
 ### Findings:
 
+
 ### Recommendations:
+
