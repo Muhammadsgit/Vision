@@ -49,6 +49,19 @@ Beer Bottles:
 
 ![00000182](https://github.com/Muhammadsgit/Vision/assets/17506063/8aaa4b90-d65b-43ac-b331-11d56d177531)
 
+Soda Bottles:
+
+![00000033](https://github.com/Muhammadsgit/Vision/assets/17506063/8687c81a-cfe1-408c-8b9c-77a634b8ad98)
+
+Water Bottles:
+
+![00000138](https://github.com/Muhammadsgit/Vision/assets/17506063/b0a01214-febc-43b4-a90b-3c8a9a34f7e0)
+
+Wine Bottles:
+
+![00000205](https://github.com/Muhammadsgit/Vision/assets/17506063/f4dc98af-cda1-49bd-8068-f1dc98db2c95)
+
+
 
 
 
