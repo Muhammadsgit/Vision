@@ -62,7 +62,7 @@ Wine Bottles:
 ![00000205](https://github.com/Muhammadsgit/Vision/assets/17506063/f4dc98af-cda1-49bd-8068-f1dc98db2c95)
 
 
-###  Findings, Conclusions and Recommendations
+###  Conclusions and Recommendations
 
 In conclusion, this project successfully developed an accurate image classifier capable of categorizing synthetic bottle images into 5 distinct types with over 90% precision and recall. The model generalizes well to real-world bottles, despite training only on synthetic data.
 
