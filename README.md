@@ -30,7 +30,7 @@ This is an alphabetical list of the repository's directory and file structure.
 ├── datasets/  
 │   └── link.txt  
 ├── saved_models/
-│   └──
+│   └──  
 ├── presentation/  
 │   └──   
 ├── results/  
