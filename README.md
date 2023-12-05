@@ -24,11 +24,11 @@ The key challenges include limited training data, class imbalance, and domain sh
 This is an alphabetical list of the repository's directory and file structure.
 
 .
-├── README.md
-├── code/
-│   └── Bottle_Image_classifier.ipynb
-├── datasets/
-│   └── link.txt
+├── README.md\n
+├── code/\n
+│   └── Bottle_Image_classifier.ipynb\n
+├── datasets/\n
+│   └── link.txt\n
 ├── saved_models
 ├── presentation/
 │   └── 
