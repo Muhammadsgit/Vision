@@ -1,5 +1,3 @@
-## AUTHOR
-Muhammad Hassan
 
 ## Executive Summary
 This project develops an image classifier to categorize bottle images into 5 classes - plastic, beer, soda, water and wine. A convolutional neural network (CNN) model is trained on a dataset of 5000 synthetic bottle images per class with random backgrounds.
@@ -22,40 +20,22 @@ Success would demonstrate an ability to cope with synthetic training data and ma
 The key challenges include limited training data, class imbalance, and domain shift between synthetic and real-world images. State-of-the-art deep learning techniques will be explored to tackle these challenges.
 
 
-## About
-
-
-
 ### File Directory / Table of Contents
 This is an alphabetical list of the repository's directory and file structure.
 
 - README.md
 - code
-  - 01_cleaning.ipynb
-  - 02_eda.ipynb
-  - 03_
-  - 04_model
-  - 05_model_
-
+  - Bottle_Image_classifier.ipynb
 - datasets
-    - 
-- images
- 
-- pickles
-
+    - link.txt
+- saved_models
 - presentation
   - 
 - results
-  
+  - confusion_matrix.png
+  - accuracy_plot.png   
+- requirement.txt  
    
-### Software Requirements
-
-Jupyter Notebook
-Matplotlib.pyplot
-NumPy
-Pandas
-Scikit-Learn (sklearn)
-
 ### Data Classes
 
 
