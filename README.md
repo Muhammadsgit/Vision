@@ -62,21 +62,16 @@ Wine Bottles:
 ![00000205](https://github.com/Muhammadsgit/Vision/assets/17506063/f4dc98af-cda1-49bd-8068-f1dc98db2c95)
 
 
+###  Findings, Conclusions and Recommendations
 
+In conclusion, this project successfully developed an accurate image classifier capable of categorizing synthetic bottle images into 5 distinct types with over 90% precision and recall. The model generalizes well to real-world bottles, despite training only on synthetic data.
 
+The use of deep transfer learning proved highly effective, enabling the model to learn robust feature representations from limited training data. Fine-tuning a pre-trained VGG16 model on the new dataset allowed adaptation of features to the bottle classification task.
 
+The model is ready to be integrated into a waste sorting and recycling system. It can identify bottle material types with high reliability, enabling automated sorting and treatment.
 
+For future work, it is recommended to expand the model to additional bottle categories such as glass, cartons, pouches etc. Augmenting the synthetic training data with a small set of real images via techniques like mixup could further enhance generalization.
 
+The model should be deployed on an embedded system in the recycling plant and evaluated on a live input stream. With enhancements, this technology can be scaled and commercialized to automate waste bottle sorting for sustainability and business benefits.
 
-
-### Feature	Description	Details
-
-
-### Conclusions and Recommendations
-
-
-### Findings:
-
-
-### Recommendations:
 
