@@ -39,6 +39,11 @@ This is an alphabetical list of the repository's directory and file structure.
 └── requirement.txt  
    
 ### Data Classes
+The dataset used to fine-tune our bottle image classifier consist of 5 classes namely, Plastic Bottles , Beer Bottles, Soda Bottles, Water Bottles, and Wine Bottles. 
+
+Plastic Bottles:
+![00000000](https://github.com/Muhammadsgit/Vision/assets/17506063/1ca43d16-577f-4f63-b216-f1cbd4c34bc9)
+
 
 
 ### Feature	Description	Details
