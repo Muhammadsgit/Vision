@@ -9,9 +9,17 @@ Transfer learning with a pre-trained VGG16 model is utilized to leverage robust 
 The classifier generalizes well to real-world bottle images not used in training. This demonstrates its capability to handle synthetic training data and make predictions on real images. In summary, an accurate and robust image classification model is developed through transfer learning. It can categorize bottle images into distinct types, despite training only on synthetic data. This has useful applications in waste sorting, recycling, automated inspection and more.
 
 ## Problem Statement
-The project aims to develop and evaluate a machine learning model capable of classifying images of bottles into distinct categories based on their types. The dataset comprises synthetically generated images featuring various bottle classes scattered across random backgrounds ([dataset](https://www.kaggle.com/datasets/vencerlanz09/bottle-synthetic-images-dataset 'Link to dataset')). The current scope of the dataset includes five bottle classes: Plastic Bottles, Beer Bottles, Soda Bottles, Water Bottles, and Wine Bottles. The goal is to accurately categorize each image into one of these predefined classes.
+Categorizing waste bottles by material type is an important task for recycling and waste management. However, training image classification models that are robust to real-world bottle images is challenging, particularly when limited to synthetic training data.
 
-This task addresses the challenges inherent in computer vision and image classification, particularly in dealing with **synthetic/augmented imagery and diverse backgrounds**. The project involves exploring and applying advanced machine learning techniques, including convolutional neural networks (CNNs) and transfer learning, to achieve high accuracy in classification. 
+The key problem is developing an image classifier capable of accurately categorizing bottle images into distinct types (plastic, glass, etc.) despite being trained only on synthetically generated data. The model must handle variations of bottle appearance, lighting, angle and background in real-world images.
+
+This project aims to address this problem by leveraging deep transfer learning techniques. A convolutional neural network pre-trained on large-scale data is fine-tuned on synthetic bottle images to adapt its feature extraction capabilities.
+
+The goal is to train an accurate multi-class classifier for bottle images that generalizes well to real-world data. The target is over 90% precision and recall across all classes using only synthetic images for training.
+
+Success would demonstrate an ability to cope with synthetic training data and make predictions on real images. This has significant applications in waste and recycling management, automated inspection systems, assistance technology and more.
+
+The key challenges include limited training data, class imbalance, and domain shift between synthetic and real-world images. State-of-the-art deep learning techniques will be explored to tackle these challenges.
 
 
 ## About
