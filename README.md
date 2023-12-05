@@ -45,6 +45,13 @@ Plastic Bottles:
 
 ![00000000](https://github.com/Muhammadsgit/Vision/assets/17506063/1ca43d16-577f-4f63-b216-f1cbd4c34bc9)
 
+Beer Bottles:
+
+![00000182](https://github.com/Muhammadsgit/Vision/assets/17506063/8aaa4b90-d65b-43ac-b331-11d56d177531)
+
+
+
+
 
 
 
