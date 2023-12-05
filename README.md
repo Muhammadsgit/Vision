@@ -26,7 +26,7 @@ This is an alphabetical list of the repository's directory and file structure.
 .
 ├── README.md  
 ├── code/  
-│   └── Bottle_Image_classifier.ipynb 
+│   └── Bottle_Image_classifier.ipynb  
 ├── datasets/  
 │   └── link.txt  
 ├── saved_models  
@@ -34,8 +34,8 @@ This is an alphabetical list of the repository's directory and file structure.
 │   └──   
 ├── results/  
 │   ├── confusion_matrix.png  
-│   └── accuracy_plot.png     
-└── requirement.txt    
+│   └── accuracy_plot.png  
+└── requirement.txt  
    
 ### Data Classes
 
