@@ -29,7 +29,7 @@ This is an alphabetical list of the repository's directory and file structure.
 │   └── Bottle_Image_classifier.ipynb  
 ├── datasets/  
 │   └── link.txt  
-├── saved_models/
+├── saved_models/  
 │   └──  
 ├── presentation/  
 │   └──   
