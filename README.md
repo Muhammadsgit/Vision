@@ -1,18 +1,17 @@
-# Vision
-
-  Vizs.ai
-
 ## AUTHOR
-  Muhammad Hassan
-
-## Problem Statement
-The project aims to develop and evaluate a machine learning model capable of classifying images of bottles into distinct categories based on their types. The dataset comprises synthetically generated images featuring various bottle classes scattered across random backgrounds [dataset](https://www.kaggle.com/datasets/vencerlanz09/bottle-synthetic-images-dataset 'Link to dataset') (). The current scope of the dataset includes five bottle classes: Plastic Bottles, Beer Bottles, Soda Bottles, Water Bottles, and Wine Bottles. The goal is to accurately categorize each image into one of these predefined classes.
-
-This task addresses the challenges inherent in computer vision and image classification, particularly in dealing with synthetic imagery and diverse backgrounds. The project involves exploring and applying advanced machine learning techniques, including convolutional neural networks (CNNs) and transfer learning, to achieve high accuracy in classification. 
-
-Training an image classifier that is robust against real world out of distribution data is challenging task. Leveraging the powerful learned feature representations from VGG16 through transfer learning and fine-tuning can enable training a robust image classifier on limited data that generalizes well to real-world out-of-distribution examples. 
+Muhammad Hassan
 
 ## Executive Summary
+This project develops an image classifier to categorize bottle images into 5 classes - plastic, beer, soda, water and wine. A convolutional neural network (CNN) model is trained on a dataset of 5000 synthetic bottle images per class with random backgrounds.
+
+Transfer learning with a pre-trained VGG16 model is utilized to leverage robust feature representations and enable training high-quality models from limited data. The model is fine-tuned via the technique of retraining higher layers on the new dataset. The model achieves strong performance, with over 90% accuracy on the test set across all classes. Precision and recall are also high, indicating low misclassification errors.
+
+The classifier generalizes well to real-world bottle images not used in training. This demonstrates its capability to handle synthetic training data and make predictions on real images. In summary, an accurate and robust image classification model is developed through transfer learning. It can categorize bottle images into distinct types, despite training only on synthetic data. This has useful applications in waste sorting, recycling, automated inspection and more.
+
+## Problem Statement
+The project aims to develop and evaluate a machine learning model capable of classifying images of bottles into distinct categories based on their types. The dataset comprises synthetically generated images featuring various bottle classes scattered across random backgrounds ([dataset](https://www.kaggle.com/datasets/vencerlanz09/bottle-synthetic-images-dataset 'Link to dataset')). The current scope of the dataset includes five bottle classes: Plastic Bottles, Beer Bottles, Soda Bottles, Water Bottles, and Wine Bottles. The goal is to accurately categorize each image into one of these predefined classes.
+
+This task addresses the challenges inherent in computer vision and image classification, particularly in dealing with **synthetic/augmented imagery and diverse backgrounds**. The project involves exploring and applying advanced machine learning techniques, including convolutional neural networks (CNNs) and transfer learning, to achieve high accuracy in classification. 
 
 
 ## About
