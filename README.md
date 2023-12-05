@@ -23,18 +23,19 @@ The key challenges include limited training data, class imbalance, and domain sh
 ### File Directory / Table of Contents
 This is an alphabetical list of the repository's directory and file structure.
 
-- README.md
-- code
-  - Bottle_Image_classifier.ipynb
-- datasets
-    - link.txt
-- saved_models
-- presentation
-  - 
-- results
-  - confusion_matrix.png
-  - accuracy_plot.png   
-- requirement.txt  
+.
+├── README.md
+├── code/
+│   └── Bottle_Image_classifier.ipynb
+├── datasets/
+│   └── link.txt
+├── saved_models
+├── presentation/
+│   └── 
+├── results/
+│   ├── confusion_matrix.png
+│   └── accuracy_plot.png   
+└── requirement.txt  
    
 ### Data Classes
 
