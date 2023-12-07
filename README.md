@@ -76,7 +76,7 @@ Finally, a 5-way softmax output layer classifies the adapted features into the 5
 Overall, this architecture enables effective training of an accurate bottle classifier using transfer learning, despite having limited training data. The pretrained base model provides robust feature extraction, while the top layers adapt these features to the classification task.
 </td>
 <td>
-![Model Architecture](https://github.com/Muhammadsgit/Vision/assets/17506063/1bb11d62-829d-463b-9b71-a5223bed4946)
+<img src="https://github.com/Muhammadsgit/Vision/assets/17506063/1542d43b-05e5-4fd9-8652-26c42b37a977.png" alt="Model Architecture" />
 </td>
 
 
