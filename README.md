@@ -1,5 +1,7 @@
+![bottles](https://github.com/Muhammadsgit/Vision/assets/17506063/73fc1862-d617-479a-961e-c8f03dc1990e)
 
 ## Executive Summary
+
 This project develops an image classifier to categorize bottle images into 5 classes - plastic, beer, soda, water and wine. A convolutional neural network (CNN) model is trained on a dataset of 5000 synthetic bottle images per class with random backgrounds.
 
 Transfer learning with a pre-trained VGG16 model is utilized to leverage robust feature representations and enable training high-quality models from limited data. The model is fine-tuned via the technique of retraining higher layers on the new dataset. The model achieves strong performance, with over 90% accuracy on the test set across all classes. Precision and recall are also high, indicating low misclassification errors.
