@@ -62,16 +62,17 @@ Wine Bottles:
 ![00000205](https://github.com/Muhammadsgit/Vision/assets/17506063/f4dc98af-cda1-49bd-8068-f1dc98db2c95)
 
 ### Model Architecture
-This image classification project aims to categorize bottle images into five distinct classes: plastic, beer, soda, water, and wine. To achieve this, a convolutional neural network (CNN) model is developed, trained on a dataset of 25,000 synthetic bottle images (5,000 per class) with varied backgrounds.
+The model uses transfer learning with EfficientNetB0 as the base network. EfficientNetB0 is a pre-trained convolutional neural network that provides robust feature representations learned from large-scale image data. To leverage these representations, the base model is loaded with pretrained weights on ImageNet and its trainable parameters are frozen.
 
-The model architecture leverages transfer learning, employing a pre-trained VGG16 model as the foundational layer. VGG16, known for its effectiveness in image recognition tasks, provides a robust feature representation base. This approach is particularly beneficial when working with a limited dataset, as it allows the model to utilize features learned from a much larger dataset (like ImageNet).
+The input images are first augmented using random flipping, rotation and zooming to expand the diversity of the limited training data. These augmented images are fed into the base EfficientNetB0 model which extracts bottleneck features.
 
-After integrating the VGG16 base, the model undergoes fine-tuning where higher layers are retrained on the project's specific dataset of synthetic bottle images. This fine-tuning process adapts the model to the nuances of the bottle classification task, leading to an impressive performance with over 90% accuracy on the test set across all classes. High precision and recall values further indicate a low rate of misclassification errors, which is crucial for practical applications.
+Batch normalization is applied on the features for regularization. A 256-unit dense layer with L1 and L2 regularizations is then added to learn representations tailored to bottle classification from the base features. Dropout is used to prevent overfitting.
+
+Finally, a 5-way softmax output layer classifies the adapted features into the 5 bottle types. By freezing the base model as a fixed feature extractor, the pretrained representations are transferred while only the classifier layers are tuned to the new dataset.
 
 ![Model arc](https://github.com/Muhammadsgit/Vision/assets/17506063/1542d43b-05e5-4fd9-8652-26c42b37a977)
 
-One of the notable achievements of this classifier is its ability to generalize effectively to real-world bottle images, despite being trained only on synthetic data. This generalization capability is essential, demonstrating that the model can reliably handle and make accurate predictions on real images it has not encountered during training.
-
+Overall, this architecture enables effective training of an accurate bottle classifier using transfer learning, despite having limited training data. The pretrained base model provides robust feature extraction, while the top layers adapt these features to the classification task.
 
 
 ###  Conclusions and Recommendations
