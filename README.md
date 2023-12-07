@@ -61,6 +61,18 @@ Wine Bottles:
 
 ![00000205](https://github.com/Muhammadsgit/Vision/assets/17506063/f4dc98af-cda1-49bd-8068-f1dc98db2c95)
 
+### Model Architecture
+This image classification project aims to categorize bottle images into five distinct classes: plastic, beer, soda, water, and wine. To achieve this, a convolutional neural network (CNN) model is developed, trained on a dataset of 25,000 synthetic bottle images (5,000 per class) with varied backgrounds.
+
+The model architecture leverages transfer learning, employing a pre-trained VGG16 model as the foundational layer. VGG16, known for its effectiveness in image recognition tasks, provides a robust feature representation base. This approach is particularly beneficial when working with a limited dataset, as it allows the model to utilize features learned from a much larger dataset (like ImageNet).
+
+After integrating the VGG16 base, the model undergoes fine-tuning where higher layers are retrained on the project's specific dataset of synthetic bottle images. This fine-tuning process adapts the model to the nuances of the bottle classification task, leading to an impressive performance with over 90% accuracy on the test set across all classes. High precision and recall values further indicate a low rate of misclassification errors, which is crucial for practical applications.
+
+![Model arc](https://github.com/Muhammadsgit/Vision/assets/17506063/1542d43b-05e5-4fd9-8652-26c42b37a977)
+
+One of the notable achievements of this classifier is its ability to generalize effectively to real-world bottle images, despite being trained only on synthetic data. This generalization capability is essential, demonstrating that the model can reliably handle and make accurate predictions on real images it has not encountered during training.
+
+
 
 ###  Conclusions and Recommendations
 
