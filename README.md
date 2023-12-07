@@ -62,6 +62,9 @@ Wine Bottles:
 ![00000205](https://github.com/Muhammadsgit/Vision/assets/17506063/f4dc98af-cda1-49bd-8068-f1dc98db2c95)
 
 ### Model Architecture
+<table>
+<tr>
+    <td>
 The model uses transfer learning with EfficientNetB0 as the base network. EfficientNetB0 is a pre-trained convolutional neural network that provides robust feature representations learned from large-scale image data. To leverage these representations, the base model is loaded with pretrained weights on ImageNet and its trainable parameters are frozen.
 
 The input images are first augmented using random flipping, rotation and zooming to expand the diversity of the limited training data. These augmented images are fed into the base EfficientNetB0 model which extracts bottleneck features.
@@ -70,9 +73,11 @@ Batch normalization is applied on the features for regularization. A 256-unit de
 
 Finally, a 5-way softmax output layer classifies the adapted features into the 5 bottle types. By freezing the base model as a fixed feature extractor, the pretrained representations are transferred while only the classifier layers are tuned to the new dataset.
 
-![Model arc](https://github.com/Muhammadsgit/Vision/assets/17506063/1542d43b-05e5-4fd9-8652-26c42b37a977)
-
 Overall, this architecture enables effective training of an accurate bottle classifier using transfer learning, despite having limited training data. The pretrained base model provides robust feature extraction, while the top layers adapt these features to the classification task.
+</td>
+<td>
+    ![Model Architecture](https://github.com/Muhammadsgit/Vision/assets/17506063/1542d43b-05e5-4fd9-8652-26c42b37a977)
+</td>
 
 
 ###  Conclusions and Recommendations
