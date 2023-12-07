@@ -1,5 +1,3 @@
-![bottles](https://github.com/Muhammadsgit/Vision/assets/17506063/73fc1862-d617-479a-961e-c8f03dc1990e)
-
 ## Executive Summary
 
 This project develops an image classifier to categorize bottle images into 5 classes - plastic, beer, soda, water and wine. A convolutional neural network (CNN) model is trained on a dataset of 5000 synthetic bottle images per class with random backgrounds.
