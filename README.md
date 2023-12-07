@@ -62,7 +62,9 @@ Wine Bottles:
 ![00000205](https://github.com/Muhammadsgit/Vision/assets/17506063/f4dc98af-cda1-49bd-8068-f1dc98db2c95)
 
 ### Model Architecture
-
+<table>
+<tr>
+    <td>
 The model uses transfer learning with EfficientNetB0 as the base network. EfficientNetB0 is a pre-trained convolutional neural network that provides robust feature representations learned from large-scale image data. To leverage these representations, the base model is loaded with pretrained weights on ImageNet and its trainable parameters are frozen.
 
 The input images are first augmented using random flipping, rotation and zooming to expand the diversity of the limited training data. These augmented images are fed into the base EfficientNetB0 model which extracts bottleneck features.
