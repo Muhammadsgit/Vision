@@ -62,6 +62,7 @@ Wine Bottles:
 ![00000205](https://github.com/Muhammadsgit/Vision/assets/17506063/f4dc98af-cda1-49bd-8068-f1dc98db2c95)
 
 ### Model Architecture
+
 <table>
 <tr>
     <td>
