@@ -75,10 +75,11 @@ Batch normalization is applied on the features for regularization. A 256-unit de
 Finally, a 5-way softmax output layer classifies the adapted features into the 5 bottle types. By freezing the base model as a fixed feature extractor, the pretrained representations are transferred while only the classifier layers are tuned to the new dataset.
 
 Overall, this architecture enables effective training of an accurate bottle classifier using transfer learning, despite having limited training data. The pretrained base model provides robust feature extraction, while the top layers adapt these features to the classification task.
-</td>
-<td>
+   </td>
+   <td>
 <img src="https://github.com/Muhammadsgit/Vision/assets/17506063/1542d43b-05e5-4fd9-8652-26c42b37a977.png" alt="Model Architecture" width="1000" height="600"/>
-</td>
+   </td>
+</table>
 
 
 ###  Conclusions and Recommendations
